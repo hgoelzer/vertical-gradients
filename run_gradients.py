@@ -1,6 +1,9 @@
+import os
 import numpy as np
 from sklearn.linear_model import LinearRegression
 import netCDF4 as nc
+
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ── Configuration ──────────────────────────────────────────────────────────
 APATH  = './Data/HIRHAM5/'
