@@ -1,0 +1,15 @@
+name: smbenv
+channels:
+  - conda-forge
+dependencies:
+  - openpyxl
+  - progress
+  - scikit-learn
+  - pandas
+  - gdal
+  - cdo
+  - xarray
+  - scipy
+  - matplotlib
+  - netcdf4
+  - numpy
