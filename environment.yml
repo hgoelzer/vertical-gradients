@@ -8,6 +8,7 @@ dependencies:
   - pandas
   - gdal
   - cdo
+  - nco
   - xarray
   - scipy
   - matplotlib
