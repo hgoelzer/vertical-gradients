@@ -12,11 +12,11 @@ outpath=./Output
 #
 #    infile=${inpath}/dST_HIRHAM5-yearly-${agcmscen}-${year}.nc
 #    outfile=${outpath}/${agcmscen}/dST_HIRHAM5-yearly-${agcmscen}-${year}.nc
-#    ./interp_func_ST.sh ${infile} ${outfile}
+#    ./interp_func.sh ST ${infile} ${outfile}
 #
 #    infile=${inpath}/dRU_HIRHAM5-yearly-${agcmscen}-${year}.nc
 #    outfile=${outpath}/${agcmscen}/dRU_HIRHAM5-yearly-${agcmscen}-${year}.nc
-#    ./interp_func_RU.sh ${infile} ${outfile}
+#    ./interp_func.sh RU ${infile} ${outfile}
 #    
 #done
 
@@ -27,11 +27,11 @@ for year in {2015..2015}; do
 
     infile=${inpath}/dST_HIRHAM5-yearly-${agcmscen}-${year}.nc
     outfile=${outpath}/${agcmscen}/dST_HIRHAM5-yearly-${agcmscen}-${year}.nc
-    ./interp_func_ST.sh ${infile} ${outfile}
+    ./interp_func.sh ST ${infile} ${outfile}
 
     infile=${inpath}/dRU_HIRHAM5-yearly-${agcmscen}-${year}.nc
     outfile=${outpath}/${agcmscen}/dRU_HIRHAM5-yearly-${agcmscen}-${year}.nc
-    ./interp_func_RU.sh ${infile} ${outfile}
+    ./interp_func.sh RU ${infile} ${outfile}
     
 done
 
