@@ -29,3 +29,6 @@ ncks -O -C -x -v lat,lon,lon_bnds,lat_bnds tmp0.nc tmp0.nc
 ncrename -v dvardz,dST tmp0.nc
 # replace missing with zeros
 cdo setmisstoc,0 tmp0.nc ${outfile}
+
+# clean up
+/bin/rm tmp0.nc
